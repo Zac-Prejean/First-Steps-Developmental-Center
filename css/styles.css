@@ -25,6 +25,9 @@ input {
   background-image: url('../images/banner.png');
   background-size: cover;
 }
+a {
+  color: inherit;
+}
 
 
 /* --ABOUT-- */
@@ -48,6 +51,24 @@ input {
   background-color: #7678ED;
   box-shadow: 3px 3px 5px lightgray;
   border-radius: 15px;
+}
+
+/* --PHOTO BTN-- */
+.photobtn {
+  background-color: #7678ED;
+  box-shadow: 3px 3px 5px lightgray;
+  border-radius: 50%;
+  width: 125px;
+}
+.photobtn a:link {
+  text-decoration: none;
+}
+.photobtn a:hover {
+  color: #3D348B;
+}
+.cam {
+  width: 75px;
+  height: 75px;
 }
 
 /* --NEWSLETTER-- */
@@ -77,7 +98,7 @@ input {
   padding: 0 50px;
   margin: 0;
 }
-label {
+.pic-label {
   display: inline-block;
   height: 100%;
   display: flex;
@@ -86,7 +107,7 @@ label {
   cursor: pointer;
   transition: color .2s;
 }
-label:hover {
+.pic-label:hover {
   color: #3D348B;
 }
 .photo-gallery {
