@@ -73,7 +73,7 @@ a {
 
 /* --NEWSLETTER-- */
 .newsletter {
-  background-color: #FFADAD;
+  background-color: #f57dbe;
   box-shadow: 3px 3px 5px lightgray;
   border-radius: 15px;
 }
@@ -181,12 +181,27 @@ a {
   position: relative;
   transition: .5s;
 }
+/* JULY */
+#check7:checked ~ .container-select .photo-gallery .october {
+  opacity: 1;
+  transform: scale(1);
+  position: relative;
+}
+#check7:checked ~ .container-select .photo-gallery .october,
+#check7:checked ~ .container-select .photo-gallery .november,
+#check7:checked ~ .container-select .photo-gallery .december {
+  opacity: 0;
+  transform: scale(0);
+  position: absolute;
+  transition: 0s;
+}
 /* OCTOBER */
 #check10:checked ~ .container-select .photo-gallery .october {
   opacity: 1;
   transform: scale(1);
   position: relative;
 }
+#check10:checked ~ .container-select .photo-gallery .july,
 #check10:checked ~ .container-select .photo-gallery .november,
 #check10:checked ~ .container-select .photo-gallery .december {
   opacity: 0;
@@ -200,6 +215,7 @@ a {
   transform: scale(1);
   position: relative;
 }
+#check11:checked ~ .container-select .photo-gallery .july,
 #check11:checked ~ .container-select .photo-gallery .october,
 #check11:checked ~ .container-select .photo-gallery .december {
   opacity: 0;
@@ -213,6 +229,7 @@ a {
   transform: scale(1);
   position: relative;
 }
+#check12:checked ~ .container-select .photo-gallery .july,
 #check12:checked ~ .container-select .photo-gallery .october,
 #check12:checked ~ .container-select .photo-gallery .november {
   opacity: 0;
