@@ -73,7 +73,7 @@ a {
 
 /* --NEWSLETTER-- */
 .newsletter {
-  background-color: #fde09d;
+  background-color: #fff;
   box-shadow: 3px 3px 5px lightgray;
   border-radius: 15px;
 }
@@ -175,22 +175,22 @@ a {
 }
 
 /* -SELECTED- */
-#check0:checked ~ .container-select .photo-gallery .pic {
+/* #check0:checked ~ .container-select .photo-gallery {
   opacity: 1;
   transform: scale(1);
   position: relative;
   transition: .5s;
-}
+} */
 /* JANUARY */
 #check1:checked ~ .container-select .photo-gallery .january {
   opacity: 1;
   transform: scale(1);
   position: relative;
 }
-#check1:checked ~ .container-select .photo-gallery .february
-#check1:checked ~ .container-select .photo-gallery .march
-#check1:checked ~ .container-select .photo-gallery .april
-#check1:checked ~ .container-select .photo-gallery .may
+#check1:checked ~ .container-select .photo-gallery .february,
+#check1:checked ~ .container-select .photo-gallery .march,
+#check1:checked ~ .container-select .photo-gallery .april,
+#check1:checked ~ .container-select .photo-gallery .may,
 #check1:checked ~ .container-select .photo-gallery .june,
 #check1:checked ~ .container-select .photo-gallery .july,
 #check1:checked ~ .container-select .photo-gallery .august,
@@ -209,10 +209,10 @@ a {
   transform: scale(1);
   position: relative;
 }
-#check2:checked ~ .container-select .photo-gallery .january
-#check2:checked ~ .container-select .photo-gallery .march
-#check2:checked ~ .container-select .photo-gallery .april
-#check2:checked ~ .container-select .photo-gallery .may
+#check2:checked ~ .container-select .photo-gallery .january,
+#check2:checked ~ .container-select .photo-gallery .march,
+#check2:checked ~ .container-select .photo-gallery .april,
+#check2:checked ~ .container-select .photo-gallery .may,
 #check2:checked ~ .container-select .photo-gallery .june,
 #check2:checked ~ .container-select .photo-gallery .july,
 #check2:checked ~ .container-select .photo-gallery .august,
@@ -231,10 +231,10 @@ a {
   transform: scale(1);
   position: relative;
 }
-#check3:checked ~ .container-select .photo-gallery .january
-#check3:checked ~ .container-select .photo-gallery .february
-#check3:checked ~ .container-select .photo-gallery .april
-#check3:checked ~ .container-select .photo-gallery .may
+#check3:checked ~ .container-select .photo-gallery .january,
+#check3:checked ~ .container-select .photo-gallery .february,
+#check3:checked ~ .container-select .photo-gallery .april,
+#check3:checked ~ .container-select .photo-gallery .may,
 #check3:checked ~ .container-select .photo-gallery .june,
 #check3:checked ~ .container-select .photo-gallery .july,
 #check3:checked ~ .container-select .photo-gallery .august,
@@ -253,10 +253,10 @@ a {
   transform: scale(1);
   position: relative;
 }
-#check4:checked ~ .container-select .photo-gallery .january
-#check4:checked ~ .container-select .photo-gallery .february
-#check4:checked ~ .container-select .photo-gallery .march
-#check4:checked ~ .container-select .photo-gallery .may
+#check4:checked ~ .container-select .photo-gallery .january,
+#check4:checked ~ .container-select .photo-gallery .february,
+#check4:checked ~ .container-select .photo-gallery .march,
+#check4:checked ~ .container-select .photo-gallery .may,
 #check4:checked ~ .container-select .photo-gallery .june,
 #check4:checked ~ .container-select .photo-gallery .july,
 #check4:checked ~ .container-select .photo-gallery .august,
@@ -275,10 +275,10 @@ a {
   transform: scale(1);
   position: relative;
 }
-#check5:checked ~ .container-select .photo-gallery .january
-#check5:checked ~ .container-select .photo-gallery .february
-#check5:checked ~ .container-select .photo-gallery .march
-#check5:checked ~ .container-select .photo-gallery .april
+#check5:checked ~ .container-select .photo-gallery .january,
+#check5:checked ~ .container-select .photo-gallery .february,
+#check5:checked ~ .container-select .photo-gallery .march,
+#check5:checked ~ .container-select .photo-gallery .april,
 #check5:checked ~ .container-select .photo-gallery .june,
 #check5:checked ~ .container-select .photo-gallery .july,
 #check5:checked ~ .container-select .photo-gallery .august,
@@ -291,17 +291,17 @@ a {
   position: absolute;
   transition: 0s;
 }
-/* JUNE */
+/* june */
 #check6:checked ~ .container-select .photo-gallery .june {
   opacity: 1;
   transform: scale(1);
   position: relative;
 }
-#check6:checked ~ .container-select .photo-gallery .january
-#check6:checked ~ .container-select .photo-gallery .february
-#check6:checked ~ .container-select .photo-gallery .march
-#check6:checked ~ .container-select .photo-gallery .april
-#check6:checked ~ .container-select .photo-gallery .may
+#check6:checked ~ .container-select .photo-gallery .january,
+#check6:checked ~ .container-select .photo-gallery .february,
+#check6:checked ~ .container-select .photo-gallery .march,
+#check6:checked ~ .container-select .photo-gallery .april,
+#check6:checked ~ .container-select .photo-gallery .may,
 #check6:checked ~ .container-select .photo-gallery .july,
 #check6:checked ~ .container-select .photo-gallery .august,
 #check6:checked ~ .container-select .photo-gallery .september,
@@ -319,11 +319,11 @@ a {
   transform: scale(1);
   position: relative;
 }
-#check7:checked ~ .container-select .photo-gallery .january
-#check7:checked ~ .container-select .photo-gallery .february
-#check7:checked ~ .container-select .photo-gallery .march
-#check7:checked ~ .container-select .photo-gallery .april
-#check7:checked ~ .container-select .photo-gallery .may
+#check7:checked ~ .container-select .photo-gallery .january,
+#check7:checked ~ .container-select .photo-gallery .february,
+#check7:checked ~ .container-select .photo-gallery .march,
+#check7:checked ~ .container-select .photo-gallery .april,
+#check7:checked ~ .container-select .photo-gallery .may,
 #check7:checked ~ .container-select .photo-gallery .june,
 #check7:checked ~ .container-select .photo-gallery .august,
 #check7:checked ~ .container-select .photo-gallery .september,
@@ -341,11 +341,11 @@ a {
   transform: scale(1);
   position: relative;
 }
-#check8:checked ~ .container-select .photo-gallery .january
-#check8:checked ~ .container-select .photo-gallery .february
-#check8:checked ~ .container-select .photo-gallery .march
-#check8:checked ~ .container-select .photo-gallery .april
-#check8:checked ~ .container-select .photo-gallery .may
+#check8:checked ~ .container-select .photo-gallery .january,
+#check8:checked ~ .container-select .photo-gallery .february,
+#check8:checked ~ .container-select .photo-gallery .march,
+#check8:checked ~ .container-select .photo-gallery .april,
+#check8:checked ~ .container-select .photo-gallery .may,
 #check8:checked ~ .container-select .photo-gallery .june,
 #check8:checked ~ .container-select .photo-gallery .july,
 #check8:checked ~ .container-select .photo-gallery .september,
@@ -363,11 +363,11 @@ a {
   transform: scale(1);
   position: relative;
 }
-#check9:checked ~ .container-select .photo-gallery .january
-#check9:checked ~ .container-select .photo-gallery .february
-#check9:checked ~ .container-select .photo-gallery .march
-#check9:checked ~ .container-select .photo-gallery .april
-#check9:checked ~ .container-select .photo-gallery .may
+#check9:checked ~ .container-select .photo-gallery .january,
+#check9:checked ~ .container-select .photo-gallery .february,
+#check9:checked ~ .container-select .photo-gallery .march,
+#check9:checked ~ .container-select .photo-gallery .april,
+#check9:checked ~ .container-select .photo-gallery .may,
 #check9:checked ~ .container-select .photo-gallery .june,
 #check9:checked ~ .container-select .photo-gallery .july,
 #check9:checked ~ .container-select .photo-gallery .august,
@@ -385,10 +385,10 @@ a {
   transform: scale(1);
   position: relative;
 }
-#check10:checked ~ .container-select .photo-gallery .january
-#check10:checked ~ .container-select .photo-gallery .february
-#check10:checked ~ .container-select .photo-gallery .march
-#check10:checked ~ .container-select .photo-gallery .april
+#check10:checked ~ .container-select .photo-gallery .january,
+#check10:checked ~ .container-select .photo-gallery .february,
+#check10:checked ~ .container-select .photo-gallery .march,
+#check10:checked ~ .container-select .photo-gallery .april,
 #check10:checked ~ .container-select .photo-gallery .may
 #check10:checked ~ .container-select .photo-gallery .june,
 #check10:checked ~ .container-select .photo-gallery .july,
@@ -407,11 +407,11 @@ a {
   transform: scale(1);
   position: relative;
 }
-#check11:checked ~ .container-select .photo-gallery .january
-#check11:checked ~ .container-select .photo-gallery .february
-#check11:checked ~ .container-select .photo-gallery .march
-#check11:checked ~ .container-select .photo-gallery .april
-#check11:checked ~ .container-select .photo-gallery .may
+#check11:checked ~ .container-select .photo-gallery .january,
+#check11:checked ~ .container-select .photo-gallery .february,
+#check11:checked ~ .container-select .photo-gallery .march,
+#check11:checked ~ .container-select .photo-gallery .april,
+#check11:checked ~ .container-select .photo-gallery .may,
 #check11:checked ~ .container-select .photo-gallery .june,
 #check11:checked ~ .container-select .photo-gallery .july,
 #check11:checked ~ .container-select .photo-gallery .august,
@@ -429,11 +429,11 @@ a {
   transform: scale(1);
   position: relative;
 }
-#check12:checked ~ .container-select .photo-gallery .january
-#check12:checked ~ .container-select .photo-gallery .february
-#check12:checked ~ .container-select .photo-gallery .march
-#check12:checked ~ .container-select .photo-gallery .april
-#check12:checked ~ .container-select .photo-gallery .may
+#check12:checked ~ .container-select .photo-gallery .january,
+#check12:checked ~ .container-select .photo-gallery .february,
+#check12:checked ~ .container-select .photo-gallery .march,
+#check12:checked ~ .container-select .photo-gallery .april,
+#check12:checked ~ .container-select .photo-gallery .may,
 #check12:checked ~ .container-select .photo-gallery .june,
 #check12:checked ~ .container-select .photo-gallery .july,
 #check12:checked ~ .container-select .photo-gallery .august,
